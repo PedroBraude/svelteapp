@@ -1,3 +1,4 @@
+
 <div class="index">
   <h1>Bem Vindo</h1>
   <p>
@@ -9,6 +10,8 @@
     voluptates repellat veniam facere laboriosam! Voluptate provident
     accusantium, architecto repellat iusto sint id. Lorem
   </p>
+  <a href="/guides">View Guides</a>
+  <a href="/about">About</a>
 </div>
 
 <style>
