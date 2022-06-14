@@ -1,4 +1,4 @@
-
+<script></script>
 <div class="index">
   <h1>Bem Vindo</h1>
   <p>
