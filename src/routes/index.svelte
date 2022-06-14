@@ -1,2 +1,19 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="index">
+  <h1>Bem Vindo</h1>
+  <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia excepturi
+    placeat necessitatibus distinctio fugiat cumque veniam reprehenderit modi
+    esse fugit delectus incidunt vel voluptate quibusdam mollitia quasi minus,
+    voluptatum voluptates? Lorem ipsum dolor sit amet consectetur adipisicing
+    elit. Quasi cupiditate voluptatum ex ab. Consectetur eius delectus incidunt
+    voluptates repellat veniam facere laboriosam! Voluptate provident
+    accusantium, architecto repellat iusto sint id. Lorem
+  </p>
+</div>
+
+<style>
+  .index {
+    text-align: center;
+    display: block;
+  }
+</style>
