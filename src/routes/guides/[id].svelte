@@ -1,17 +1,15 @@
 <script context="module">
   // Special sveltkit function to fetch data from server
   export async function load({ fetch, params }) {
-
     const id = params.id; // Traigo el id guardado en el anchor de index
     // destructuring equal to context.fetch
-    const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`);
-    const guide = await res.json();
 
+    const res = await fetch(`/guides/${id}.json`);
+    const { guide } = await res.json();
     // guides is the data we want to use like a prop.
     if (res.ok) {
       return {
         props: {
-          hello: "example prop",
           guide,
         },
       };
@@ -22,9 +20,9 @@
     };
   }
 </script>
- 
+
 <script>
-  export let guide
+  export let guide;
 </script>
 
 <div class="guide">

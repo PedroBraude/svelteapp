@@ -4,8 +4,8 @@
   // Special sveltkit function to fetch data from server
   export async function load({ fetch }) {
     // destructuring equal to context.fetch
-    const res = await fetch("https://jsonplaceholder.typicode.com/posts");
-    const guides = await res.json();
+    const res = await fetch("/guides.json");
+    const {guides} = await res.json();
 
     // guides is the data we want to use like a prop.
     if (res.ok){
