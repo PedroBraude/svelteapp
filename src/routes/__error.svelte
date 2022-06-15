@@ -1,7 +1,7 @@
 <script context="module">
 	export function load({ error }) {
 		return {
-			props: { mesage: error.message }
+			props: { message: error.message }
 		};
 	}
 </script>
