@@ -1,4 +1,8 @@
-<script></script>
+<script>
+  import Title from "../lib/title.svelte";
+</script>
+
+<Title title="Ninja Gaming Guide" slot='header'/>
 <div class="index">
   <h1>Bem Vindo</h1>
   <p>
