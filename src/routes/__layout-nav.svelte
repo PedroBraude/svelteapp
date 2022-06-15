@@ -1,15 +1,15 @@
 <script>
   import Title from '$lib/title.svelte'
-  import '../../styles/global.css'
+  import '../styles/global.css'
 </script>
 
 <header>
   <nav>
-    <Title title="Ninja Gaming Guides" />
+    <a href="/"><Title title="Peter Gaming" /></a>
     <div class="links">
       <a href="/">Home</a>
       <a href="/about">About</a>
-      <a href="/guides">Guides</a>
+      <a href="/guides">Video-Games</a>
     </div>
   </nav> 
 </header>
@@ -17,13 +17,14 @@
   <slot></slot>
 </main>
 <footer>
-  <p>Copyright 2022 Ninja Gaming Guides</p>
+  <p>Copyright 2022 Pedro Braude</p>
 </footer>
 
 <style>
   header {
     text-align: center;
-    background: rgba(0,0,0,0.1)
+    background: rgba(0,0,0,0.1);
+    margin: 0 1rem;
   }
   main {
     max-width: 960px;
@@ -34,9 +35,10 @@
   }
   nav {
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    max-width: 960px;
-    margin: 0 auto;
+    max-width: 1980px;
+    margin: 0 1rem;
   }
   .links {
     margin-left: auto;

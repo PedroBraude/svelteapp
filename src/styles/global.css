@@ -15,4 +15,15 @@ li {
     color: #decff1;
     font-family: 'VT323', monospace;
     font-weight: normal;
+    text-decoration: none;
+}
+
+button {
+    background-color: #decff1;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #422d5d;
+
 }

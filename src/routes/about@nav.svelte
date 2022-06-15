@@ -1,13 +1,10 @@
 <script>
-  import Title from "../lib/title.svelte";
+  
 </script>
 
-
-<div class="index">
-  <h1>Welcome</h1>
-  <p>
-    It is a demo app of svelte.
-  </p>
+<div class="about">
+  <h2>About Me</h2>
+  <p>Full Stack Developer with a Front-end orientation with the ability to carry out web projects, always keeping in mind that they are scalable, modularizable and with good practices in order to contribute to teamwork.</p>
   <button>
     <a href="/guides">View videogames</a>
   </button>
@@ -17,9 +14,10 @@
 </div>
 
 <style>
-  .index {
+  .about {
     text-align: center;
     display: block;
+    margin: 20px auto;
   }
   a {
     color: black;
@@ -27,6 +25,4 @@
     font-weight: normal;
     text-decoration: none;
 }
-
-
 </style>

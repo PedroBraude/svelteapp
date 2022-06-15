@@ -4,13 +4,13 @@
 </script>
 
 <header>
-  <Title title="Ninja Gaming Guides" />
+  <a href="/"><Title title="Peter Gaming" /></a>
 </header>
 <main>
   <slot></slot>
 </main>
 <footer>
-  <p>Copyright 2022 Ninja Gaming Guides</p>
+  <p>Copyright 2022 Pedro Braude</p>
 </footer>
 
 <style>
@@ -25,4 +25,5 @@
   footer {
     text-align: center;
   }
+
 </style>
