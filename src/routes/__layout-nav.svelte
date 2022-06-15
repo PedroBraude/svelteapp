@@ -9,7 +9,7 @@
     <div class="links">
       <a href="/">Home</a>
       <a href="/about">About</a>
-      <a href="/guides">Video-Games</a>
+      <a href="/guides">Games</a>
     </div>
   </nav> 
 </header>

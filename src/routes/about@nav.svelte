@@ -17,7 +17,7 @@
   .about {
     text-align: center;
     display: block;
-    margin: 20px auto;
+    margin: 20px 1rem;
   }
   a {
     color: black;

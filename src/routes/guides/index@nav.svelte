@@ -40,7 +40,7 @@
 
 <style>
   .guides {
-    margin-top: 20px;
+    margin: 20px 1rem;
   }
   ul {
     display: grid;
@@ -48,6 +48,13 @@
     text-align: center;
     list-style-type: none;
     padding: 0;
+ 
   }
+
+  li{
+    margin: 4px auto;
+  }
+
+
 
 </style>
